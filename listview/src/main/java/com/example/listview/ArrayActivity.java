@@ -2,6 +2,7 @@ package com.example.listview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.SimpleAdapter;
 
 public class ArrayActivity extends AppCompatActivity {
 
@@ -9,5 +10,6 @@ public class ArrayActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_array);
+
     }
 }
